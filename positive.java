@@ -11,11 +11,11 @@ class PosNegZero
          
        
         if(num>0)
-            System.out.println(POSITIVE ");
+            System.out.println("POSITIVE ");
         else if(num<0)
-            System.out.println(NEGATIVE ");
+            System.out.println("NEGATIVE ");
         else
-            System.out.println(ZERO.");
+            System.out.println("ZERO.");
          
     }
 }
