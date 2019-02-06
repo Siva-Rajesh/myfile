@@ -12,7 +12,6 @@ int year;
 
 boolean leap = false;
 
-System.out.print("Input:");
 
 Scanner in = new Scanner(System.in);
 
@@ -20,7 +19,7 @@ year=in.nextInt();
 
 System.out.print("\n"+year+"\n");
 
-System.out.println("Output:");
+
 
 if(year % 4 == 0)
 
@@ -58,7 +57,7 @@ System.out.println("leap year");
 
 else
 
-System.out.println("Not");
+System.out.println("no");
 
 }
 
