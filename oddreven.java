@@ -6,7 +6,7 @@ class oddreven
        
         Scanner sc=new Scanner(System.in);
          
-        System.out.print(" ");
+    
         num=sc.nextInt();
          
        
