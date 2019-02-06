@@ -1,26 +1,13 @@
 import java.util.Scanner;
-
 class beg6
-
 {
-
 public static void main(String[] args)
-
 {
-
 int year;
-
 boolean leap = false;
-
-
-Scanner in = new Scanner(System.in);
+  Scanner in = new Scanner(System.in);
 
 year=in.nextInt();
-
-System.out.print("\n"+year+"\n");
-
-
-
 if(year % 4 == 0)
 
 {
@@ -28,8 +15,7 @@ if(year % 4 == 0)
 if( year % 100 == 0)
 
 {
-
-if ( year % 400 == 0)
+  if ( year % 400 == 0)
 
 leap = true;
 
