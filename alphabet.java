@@ -15,7 +15,6 @@ Scanner scan = new Scanner(System.in);
 
 ch=scan.next().charAt(0);
 
-System.out.print("\n"+ch+"\n");
 
 
 
