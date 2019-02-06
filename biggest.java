@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Largest
 
 {
@@ -8,6 +10,7 @@ public static void main(String args[])
 
 int x, y, z;
 
+System.out.println("Input:");
 
 Scanner in = new Scanner(System.in);
 
@@ -19,7 +22,7 @@ z = in.nextInt();
 
 System.out.println(x+" " + y +" "+ z);
 
-
+System.out.println("Output:");
 
 if (x > y && x > z)
 
@@ -56,4 +59,6 @@ System.out.println("invalid");
 }
 
 }
+
+
 
