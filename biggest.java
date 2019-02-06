@@ -22,7 +22,7 @@ z = in.nextInt();
 
 System.out.println(x+" " + y +" "+ z);
 
-System.out.println("Output:");
+
 
 if (x > y && x > z)
 
