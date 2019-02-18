@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
- public class Power
+ class Power
 {
    public static void main(String arg[])
 	
