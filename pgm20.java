@@ -1,9 +1,9 @@
 import java.util.Scanner;  
-	 class Fact {  
+	 class Factorial {  
 	   public static void main(String[] args) {  
-	       Scanner s = new Scanner(System.in);  
+	       Scanner r = new Scanner(System.in);  
 	        
-	       int number = s.nextInt();  
+	       int number = r.nextInt();  
 	    
 	  int i,fact=1;  
 	    
