@@ -1,19 +1,24 @@
-#include <stdio.h>
- int main() 
+import java.util.Scanner;
+class maximum
 {
- int i,n;
- int arr[100];
- printf("enter the 1 to 100 value");
- scanf("%d",&n);
- for(i=0;i<n;i++)
- {
-  printf("enter the number:",i+1);
-  scanf("%d",&arr[i]);
- }
- for(i=0;i<=n;i++)
- {
-  if(arr[0]<arr[i])
-   a[0]=a[i];
- }
- printf("largest element%d",a[0]);
+    public static void main(String[] args) 
+    {
+        int n, max;
+        Scanner s = new Scanner(System.in); 
+        n = s.nextInt();
+        int a[] = new int[n]; 
+        for(int i = 0; i < n; i++)
+        {
+            a[i] = s.nextInt();
+        }
+        max = a[0];
+        for(int i = 0; i < n; i++)
+        {
+            if(max < a[i])
+            {
+                max = a[i];
+            }
+        }
+        System.out.println(max);
+    }
 }
