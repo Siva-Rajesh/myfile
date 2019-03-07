@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 class sap{  
-    static int sumfAP(int a, int d, int n) 
+    static int sumof(int a, int d, int n) 
     { 
         int sum = 0; 
         for (int i = 0; i < n; i++) 
@@ -16,6 +16,6 @@ class sap{
         int n = s.nextInt();
         int a = s.nextInt();
         int d = s.nextInt();
-        System.out.println(sumOfAP(a, d, n)); 
+        System.out.println(sumof(a, d, n)); 
     } 
 } 
