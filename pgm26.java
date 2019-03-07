@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class sort
+class sorting
 {
       public static void main(String arg[])
       {
@@ -20,7 +20,5 @@ class sort
       
                System.out.println(a[i]);
        }
-
-      
 }
 }
