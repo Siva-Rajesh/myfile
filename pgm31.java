@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class time
+class clock
 {
     public static void main(String[] args) 
     {
