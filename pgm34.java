@@ -1,6 +1,6 @@
 import java.lang.*;
 import java.util.Scanner;
-class sentance 
+class setce
 {
 public static void main(String[] args) 
 {
