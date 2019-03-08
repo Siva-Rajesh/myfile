@@ -1,26 +1,19 @@
 import java.util.Scanner;
-class clock
+class stl 
 {
-    public static void main(String[] args) 
-    {
-         
-        Scanner s = new Scanner(System.in); 
-         int hour1= s.nextInt();
-         int minute1= s.nextInt();
-         int hour2= s.nextInt();
-         int minute2= s.nextInt();
-         int minute,hour;
-         if(hour1>hour2&&minute1>minute2)
-         {
-             minute=minute1-minute2;
-             hour=hour1-hour2;
-         }
-         else
-         {
-             minute=minute2-minute1;
-             hour=hour2-hour1;
-         }
-
-         System.out.println(hour+" "+minute);
-    }
+public static void main(String[] args) 
+{
+Scanner sc = new Scanner(System.in);
+ 
+String str= sc.nextLine();
+int count=0;
+String array[]= str.split(" ",0);
+ 
+ for(int i=0;i<array.length;i++)
+ {
+     count+=array[i].length();
+   
+}
+System.out.println(count);
+}
 }
